@@ -6,7 +6,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { BASE_URL } from '../../utils/request';
-import { Sale } from '../../models/Sale';
+import { Sale } from '../../models/sale';
 
 function SalesCard() {
 
